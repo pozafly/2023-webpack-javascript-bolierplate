@@ -21,16 +21,6 @@ module.exports = {
           filename: 'assets/images/[name]_[contenthash:8][ext]',
         },
       },
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            cacheDirectory: true,
-          },
-        },
-      },
     ],
   },
   plugins: [
