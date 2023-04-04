@@ -1,7 +1,7 @@
 {
-  "name": "surviving-developer",
+  "name": "2023-webpack-javascript-boilerplate",
   "version": "1.0.0",
-  "description": "면접 질문에 대한 답을 연습하기 위해 랜덤 질문을 받아볼 수 있는 프로젝트",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "cross-env webpack --progress --mode production",

@@ -9,4 +9,3 @@ sampleImg.src = Apple;
 sampleImg.width = '304';
 
 app.appendChild(sampleImg);
-console.log('hi');

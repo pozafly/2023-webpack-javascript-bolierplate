@@ -10,10 +10,7 @@ module.exports = {
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
-          {
-            loader: 'style-loader',
-            options: { injectType: 'singletonStyleTag' },
-          },
+          'style-loader',
           'css-loader',
           {
             loader: 'postcss-loader',

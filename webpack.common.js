@@ -21,11 +21,19 @@ module.exports = {
           filename: 'assets/images/[name]_[contenthash:8][ext]',
         },
       },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        type: 'asset',
+        generator: {
+          filename: 'assets/fonts/[name][ext]',
+        },
+      },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: 'index.html',
+      // favicon: './src/assets/favicon/favicon.ico',
     }),
   ],
   stats: {
