@@ -1,5 +1,6 @@
 import './assets/global/reset.css';
 import './assets/main.scss';
+
 import Apple from './assets/images/apple.png';
 
 const app = document.querySelector('#app');
