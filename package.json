@@ -7,7 +7,7 @@
     "build": "webpack --progress --mode production",
     "dev": "webpack serve --open --progress --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --cache .",
+    "lint": "eslint --fix --cache .",
     "format": "prettier --write --cache .",
     "prepare": "husky install"
   },
@@ -28,6 +28,7 @@
     "eslint-config-prettier": "^8.8.0",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^8.0.3",
+    "lint-staged": "^14.0.0",
     "mini-css-extract-plugin": "^2.7.5",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.1.0",
