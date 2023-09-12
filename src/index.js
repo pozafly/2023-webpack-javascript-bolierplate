@@ -11,7 +11,7 @@ const lintTest = condition => {
   }
   return 'b';
 };
-console.log(lintTest(true));
+console.log('something test here', lintTest(true));
 
 const sampleImg = document.createElement('img');
 sampleImg.src = Apple;
